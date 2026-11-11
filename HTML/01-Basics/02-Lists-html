@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>My Developer Roadmap</title>
+</head>
+
+<body>
+
+    <h1>My Developer Roadmap</h1>
+
+    <hr>
+
+    <h2>Programming Skills</h2>
+
+    <ul>
+        <li>Python</li>
+        <li>C/C++</li>
+        <li>SQL</li>
+        <li>Java</li>
+    </ul>
+
+    <h2>Web Development</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+    </ul>
+
+    <h2>Learning Order</h2>
+
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>MySQL</li>
+    </ol>
+
+    <h2>My Goal</h2>
+
+    <p>
+        I want to become a
+        <strong>skilled software developer</strong>
+        and build real-world projects.
+    </p>
+
+</body>
+
+</html>
