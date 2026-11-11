@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Deepak's Portfolio</h1>
+
+        <p>
+            Computer Science Student
+        </p>
+
+    </header>
+
+    <hr>
+
+    <nav>
+
+        <a href="#about">About</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#education">Education</a> |
+        <a href="#projects">Projects</a>
+
+    </nav>
+
+    <main>
+
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am a Computer Science student
+                interested in software development
+                and web technologies.
+            </p>
+
+        </section>
+
+
+        <section id="skills">
+
+            <h2>My Skills</h2>
+
+            <ul>
+                <li>Python</li>
+                <li>C/C++</li>
+                <li>SQL</li>
+                <li>HTML</li>
+                <li>Git</li>
+                <li>GitHub</li>
+            </ul>
+
+        </section>
+
+
+        <section id="education">
+
+            <h2>Education</h2>
+
+            <table border="1">
+
+                <thead>
+
+                    <tr>
+                        <th>Course</th>
+                        <th>Branch</th>
+                        <th>Status</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Diploma</td>
+                        <td>CSE</td>
+                        <td>Final Year</td>
+                    </tr>
+
+                    <tr>
+                        <td>Engineering</td>
+                        <td>CSE</td>
+                        <td>Future Goal</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <section id="projects">
+
+            <h2>Projects</h2>
+
+            <article>
+
+                <h3>Student Management System</h3>
+
+                <p>
+                    A project for managing
+                    student information.
+                </p>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <hr>
+
+        <p>
+            © 2026 Deepak's Portfolio
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
