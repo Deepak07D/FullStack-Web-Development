@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Student Management System</h1>
+        <p>Manage student information easily</p>
+    </header>
+
+    <nav>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#add-student">Add Student</a>
+        <a href="#student-list">Student List</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <main>
+        <section id="dashboard" class="dashboard">
+            <h2>Dashboard</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Total Students</h3>
+                    <p>120</p>
+                </div>
+
+                <div class="card">
+                    <h3>Male Students</h3>
+                    <p>70</p>
+                </div>
+
+                <div class="card">
+                    <h3>Female Students</h3>
+                    <p>50</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="add-student">
+            <h2>Add Student</h2>
+
+            <form>
+                <label for="roll">Roll Number</label>
+                <input type="text" id="roll" placeholder="Enter roll number" required>
+
+                <label for="name">Student Name</label>
+                <input type="text" id="name" placeholder="Enter student name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter email" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter phone number">
+
+                <label for="course">Course</label>
+                <select id="course" required>
+                    <option value="">Select Course</option>
+                    <option>Computer Science</option>
+                    <option>Information Science</option>
+                    <option>Electronics</option>
+                    <option>Mechanical</option>
+                </select>
+
+                <label for="year">Year</label>
+                <select id="year" required>
+                    <option value="">Select Year</option>
+                    <option>First Year</option>
+                    <option>Second Year</option>
+                    <option>Third Year</option>
+                </select>
+
+                <button type="submit">Add Student</button>
+            </form>
+        </section>
+
+        <section id="student-list">
+            <h2>Student List</h2>
+
+            <input type="search" placeholder="Search students...">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Roll No.</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Course</th>
+                        <th>Year</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Rahul</td>
+                        <td>rahul@gmail.com</td>
+                        <td>Computer Science</td>
+                        <td>Second Year</td>
+                        <td><button class="edit">Edit</button>
+                            <button class="delete">Delete</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>102</td>
+                        <td>Priya</td>
+                        <td>priya@gmail.com</td>
+                        <td>Electronics</td>
+                        <td>First Year</td>
+                        <td><button class="edit">Edit</button>
+                            <button class="delete">Delete</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>103</td>
+                        <td>Arun</td>
+                        <td>arun@gmail.com</td>
+                        <td>Mechanical</td>
+                        <td>Third Year</td>
+                        <td><button class="edit">Edit</button>
+                            <button class="delete">Delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                Student Management System helps educational
+                institutions organize and manage student records.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Management System</p>
+    </footer>
+
+</body>
+</html>
